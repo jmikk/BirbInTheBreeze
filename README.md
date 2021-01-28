@@ -3,7 +3,7 @@
 
 How to install BirbBreeze++ 
 
-Step 1 Download the attached zip
+Step 1 Click the green button and download code as a zip
 
 Step 2 open said zip 
 
