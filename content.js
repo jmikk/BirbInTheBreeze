@@ -1,4 +1,4 @@
-// Breeze Version 3.0.0
+// Breeze Version 3.0.1
 (function() {
 	var shifted = false;
 	var controlled = false;
@@ -28,6 +28,16 @@
 			else if (e.keyCode == 85){
 				window.location.href = "https://www.nationstates.net/page=ajax2/a=reports/view=self/filter=change";
 			}
+			//pull up the RO page
+			else if (e.keyCode == 79){
+				var region_url = $('a[href^="/region"]').first().text().toLowerCase().split(' ').join('_');
+				var region_nation = $('a[href^="/nation"]').first().text().toLowerCase().split(' ').join('_');
+				
+				window.location.href = "https://www.nationstates.net/page=regional_officer/region="+region_url+"?nation="+region_nation+"&office_name=NP@";
+				
+				
+			}
+
 			// Region (R)
 			else if (e.keyCode == 82){
 				if (window.location.href.indexOf("net/region=") > -1 || window.location.href.indexOf("none/region=") > -1) {
