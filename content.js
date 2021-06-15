@@ -26,7 +26,7 @@
 			}	
 			// Did My Nation Update? (U)
 			else if (e.keyCode == 85){
-				window.location.href = "https://www.nationstates.net/page=ajax2/a=reports/view=self/filter=change";
+				window.location.href = "https://www.nationstates.net/";
 			}
 			//pull up the RO page
 			else if (e.keyCode == 79){
