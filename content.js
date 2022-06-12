@@ -116,17 +116,17 @@
 			// Prep Switchers (P, P, P, P)
 			else if (e.keyCode == 80){
 				e.preventDefault();
-				if (window.location.href.indexOf("page=un") <= -1 && window.location.href.indexOf("region=cringe_and_poggers") <- -1) {
+				if (window.location.href.indexOf("page=un") <= -1 && window.location.href.indexOf("region=lunarpunk") <- -1) {
 					window.location.href = "https://www.nationstates.net/template-overall=none/page=un";
 				}
 				if (window.location.href.indexOf("page=un") > -1) {
 					$('.button[name=submit]').first().trigger('click');
 				}
 				if (window.location.href.indexOf("page=UN_status") > -1) {
-					window.location.href = "https://www.nationstates.net/template-overall=none/region=cringe_and_poggers";
+					window.location.href = "https://www.nationstates.net/template-overall=none/region=lunarpunk";
 					
 				}
-				if (window.location.href.indexOf("region=cringe_and_poggers") > -1) {
+				if (window.location.href.indexOf("region=lunarpunk") > -1) {
 					$('.button[name=move_region], input[name=move_region]').first().trigger('click');
 				}
 			}
@@ -211,14 +211,14 @@
 					window.location.href = "https://www.nationstates.net/page=activity/view=world/filter=move+member+endo";
 				}
 			}
-			// Move Back to cringe_and_poggers (B, B)
+			// Move Back to lunarpunk (B, B)
 			else if (e.keyCode == 66){
 				var current_url = $(location).attr('href');
-				if (current_url == "https://www.nationstates.net/region=Lunar_punk"){
+				if (current_url == "https://www.nationstates.net/region=lunarpunk"){
 					$('.button[name=move_region], input[name=move_region]').first().trigger('click');
 				}
 				else {	  
-					window.location.href = "https://www.nationstates.net/region=Lunar_punk";
+					window.location.href = "https://www.nationstates.net/region=lunarpunk";
 				}
 			}
 			// Move to selected region [M], Select a region and then move to it [M, M]
