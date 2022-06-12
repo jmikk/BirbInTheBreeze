@@ -214,11 +214,11 @@
 			// Move Back to cringe_and_poggers (B, B)
 			else if (e.keyCode == 66){
 				var current_url = $(location).attr('href');
-				if (current_url == "https://www.nationstates.net/region=cringe_and_poggers"){
+				if (current_url == "https://www.nationstates.net/region=Lunar_punk"){
 					$('.button[name=move_region], input[name=move_region]').first().trigger('click');
 				}
 				else {	  
-					window.location.href = "https://www.nationstates.net/region=cringe_and_poggers";
+					window.location.href = "https://www.nationstates.net/region=Lunar_punk";
 				}
 			}
 			// Move to selected region [M], Select a region and then move to it [M, M]
